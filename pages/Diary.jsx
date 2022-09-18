@@ -8,7 +8,7 @@ const Diary = () => {
     const [items, setItems] = useState([]);
 
     const handleEnter = (event) => {
-        if (event.key === "Enter") {
+        if (event.key === " ctrl  enter") {
             handleAdd();
         }
     };
@@ -59,12 +59,16 @@ const Diary = () => {
     return (
         <div className="w-[50vw] mx-5">
                 <div className="">
+                    <input placeholder="Title..."
+                    className="w-full py-3 bg-transparent border my-1"
+                    ></input>
                     <textarea
                         // type="text"
                         value={todoItem}
-                        className=" rounded py-2 px-4 border bg-transparent w-[50vw]"
+                        className=" rounded py-2 px-4 border bg-transparent w-[50vw] h-screen"
                         onChange={(e) => setTodoItem(e.target.value)}
                         onKeyDown={handleEnter}
+                        height={2000}
                     />
                 </div>
 

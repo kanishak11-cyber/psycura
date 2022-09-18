@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@thirdweb-dev/auth": "^2.0.2",
+    "@thirdweb-dev/react": "^3.0.2",
     "classnames": "^2.3.2",
+    "ethers": "^5.7.1",
     "next": "12.3.0",
     "react": "18.2.0",
+    "react-audio-player": "^0.17.0",
     "react-calendar": "^3.8.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",

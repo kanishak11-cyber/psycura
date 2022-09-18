@@ -2,6 +2,7 @@ import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import cx from "classnames";
 import styles from '../styles/Home.module.css'
+import Senti from "../components/Senti";
 
 const Diary = () => {
     const [todoItem, setTodoItem] = useState("");
@@ -58,16 +59,29 @@ const Diary = () => {
 
     return (
         <div className="w-[50vw] mx-5">
+
+           
                 <div className="">
                     <input placeholder="Title..."
                     className="w-full py-3 bg-transparent border my-1"
-                    ></input>
-                    <textarea
-                        // type="text"
+                    />
+                     <Senti />
+                    </div>
+                    {/* <textarea
+                        type="text"
                         value={todoItem}
                         className=" rounded py-2 px-4 border bg-transparent w-[50vw] h-screen"
                         onChange={(e) => setTodoItem(e.target.value)}
                         onKeyDown={handleEnter}
+
+                        // id="standard-read-only-input"
+                        // label="Type a sentence here"
+                        // onChange={(e) => whenTyping(e)}
+                        // defaultValue=""
+                        // fullWidth
+                        // className='bg-transparent border'
+                        // value={testText}
+                        // variant="outlined"
                         height={2000}
                     />
                 </div>
@@ -98,7 +112,7 @@ const Diary = () => {
                             </li>
                         ))}
 
-                </ul>
+                </ul> */}
      
 
         </div>

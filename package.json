@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@thirdweb-dev/auth": "^2.0.2",
-    "@thirdweb-dev/react": "^3.0.2",
+    "@sanity/client": "^3.4.1",
+    "@tensorflow/tfjs": "^3.20.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "a11y-react-emoji": "^1.2.0",
     "classnames": "^2.3.2",
     "ethers": "^5.7.1",
     "next": "12.3.0",
@@ -19,6 +23,7 @@
     "react-calendar": "^3.8.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
+    "timeago.js": "^4.0.2",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

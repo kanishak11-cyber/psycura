@@ -1,0 +1,51 @@
+export const diaryData = {
+  name: "diary",
+  title: "Diary",
+  type: "document",
+  fields: [
+    {
+      name: "title",
+      title: "Title",
+      type: "string",
+    },
+    {
+      name: "date",
+      title: "Date",
+      type: "date",
+    },
+    {
+      name: "body",
+      title: "Body",
+      type: "text",
+    },
+    {
+      name: "mood",
+      title: "Mood",
+      type: "string",
+      options: {
+        list: [
+          { title: "Happy", value: "happy" },
+          { title: "Sad", value: "sad" },
+          { title: "Angry", value: "angry" },
+          { title: "Anxious", value: "anxious" },
+          { title: "Depressed", value: "depressed" },
+          { title: "Bored", value: "bored" },
+          { title: "Excited", value: "excited" },
+          { title: "Nervous", value: "nervous" },
+          { title: "Stressed", value: "stressed" },
+          { title: "Tired", value: "tired" },
+          { title: "Lonely", value: "lonely" },
+          { title: "Confused", value: "confused" },
+          { title: "Frustrated", value: "frustrated" },
+          { title: "Guilty", value: "guilty" },
+          { title: "Hopeful", value: "hopeful" },
+          { title: "Proud", value: "proud" },
+          { title: "Relaxed", value: "relaxed" },
+          { title: "Stressed", value: "stressed" },
+          { title: "Worried", value: "worried" },
+          { title: "Other", value: "other" },
+        ],
+      },
+    },
+  ],
+};

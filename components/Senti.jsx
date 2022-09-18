@@ -92,7 +92,7 @@ const Senti = ({}) => {
         label="Type a sentence here"
         onChange={(e) => whenTyping(e)}
         defaultValue=""
-        fullWidth
+        // fullWidth
         className='bg-transparent border w-full h-screen'
         value={testText}
         variant="outlined"

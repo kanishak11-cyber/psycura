@@ -22,7 +22,7 @@
     "react-audio-player": "^0.17.0",
     "react-calendar": "^3.8.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0",
+    "react-icons": "^4.6.0",
     "timeago.js": "^4.0.2",
     "uuid": "^9.0.0"
   },

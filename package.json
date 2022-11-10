@@ -16,7 +16,7 @@
     "@testing-library/user-event": "^14.4.3",
     "a11y-react-emoji": "^1.2.0",
     "classnames": "^2.3.2",
-    "ethers": "^5.7.1",
+    "ethers": "^5.7.2",
     "next": "12.3.0",
     "react": "18.2.0",
     "react-audio-player": "^0.17.0",

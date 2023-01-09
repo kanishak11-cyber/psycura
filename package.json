@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sanity/client": "^3.4.1",
+    "@sanity/client": "^4.0.0",
     "@tensorflow/tfjs": "^3.20.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

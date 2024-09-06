@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sanity/client": "^3.4.1",
+    "@sanity/client": "^6.15.5",
     "@tensorflow/tfjs": "^3.20.0",
-    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/jest-dom": "^6.1.6",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "a11y-react-emoji": "^1.2.0",
